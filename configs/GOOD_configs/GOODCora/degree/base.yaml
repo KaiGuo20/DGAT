@@ -1,0 +1,11 @@
+includes:
+  - ../base.yaml
+dataset:
+  dataset_name: GOODCora
+  domain: degree
+train:
+  max_epoch: 100
+  num_steps: 10
+  weight_decay: 0
+
+  #wd 0

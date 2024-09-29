@@ -1,0 +1,9 @@
+includes:
+  - ../base.yaml
+model:
+  global_pool: mean
+  model_layer: 3
+train:
+  val_bs: 4096
+  test_bs: 4096
+  train_bs: 4096

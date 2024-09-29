@@ -1,0 +1,46 @@
+ckpt_dir: null
+ckpt_root: null
+clean_save: false
+dataset:
+  dataloader_name: BaseDataLoader
+  dataset_root: null
+  dim_edge: null
+  dim_node: null
+  generate: false
+  num_classes: null
+  num_envs: null
+exp_round: null
+gpu_idx: 0
+log_file: default
+model:
+  appnp_alpha: 0.
+  attention_dropout_rate: 0.
+  dim_ffn: 300
+  dim_hidden: 300
+  dropout_rate: 0.5
+  hops: 5
+  num_heads: 8
+  pe_dim: 7
+  theta: 0.5
+  AGAT_Layer: 2
+  model_layer: 1
+  feature_type: raw
+num_workers: 0
+ood:
+  extra_param: null
+  ood_param: 0.4
+pipeline: Pipeline
+pytest: false
+random_seed: 2
+save_tag: null
+task: train
+train:
+  alpha: 0.5
+  ctn_epoch: 0
+  epoch: 0
+  save_gap: 10
+  stage_stones: []
+  tr_ctn: false
+  weight_decay: 0.0
+  early_stop: 1 #   1 open   0 close
+  type: null

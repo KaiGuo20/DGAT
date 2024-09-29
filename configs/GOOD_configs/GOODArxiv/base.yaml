@@ -1,0 +1,12 @@
+includes:
+  - ../base.yaml
+model:
+  model_layer: 3
+  global_pool: mean
+  num_heads: 8
+train:
+  val_bs: 4096
+  test_bs: 4096
+GT:
+  hops: 3
+  pe_dim: 3
